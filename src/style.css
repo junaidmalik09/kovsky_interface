@@ -1,0 +1,191 @@
+/*
+ CSS stylesheet for BBIOServer.
+*/
+
+body {
+  background: #eeeeff;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px 0px 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #444499; 
+  outline: 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#page-wrapper{
+  display: inline-block;
+  min-width: 720px;
+  border: 1px solid #888888;
+  background: #ffffff;
+}
+
+#header {
+  height: 60px;
+  background: #ffffff;
+  padding: 5px 20px;
+  margin: 0px 7px;
+  border-bottom: 1px solid #888888;
+}
+#header h2 { margin: 15px; }
+
+#sidebar {
+  float: left;
+  width: 150px;
+  padding: 20px 7px 20px 20px;
+}
+#sidebar li {
+  font-size: 15px;
+  list-style-type: none; 
+  padding: 5px ;
+  text-indent: -10px; 
+}
+#sidebar li:before { 
+  content: "- "; 
+}
+
+#content {
+  float: right;
+  width: 500px;
+  padding: 20px;
+  line-height: 140%;
+  margin: 7px 0px;
+  border-left: 1px solid #888888;
+}
+
+div .heading {
+  float: left;
+  width: 100%;
+  margin: 5px 15px 10px 0px;
+  padding: 5px 0px 6px 2px;
+  border-bottom: 1px dashed #888888;
+  font-size: 16px;  
+  font-weight: bold;
+}
+
+div .text {
+  float: left;
+  margin: 5px 15px 10px 5px;
+  padding: 5px 0px 5px 2px;
+}
+
+div .object-wrapper {
+  float: left;
+  margin: 0px 0px 7px 10px;
+}
+div .object-wrapper .entry {
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  height: 31px;
+  width: 200px;
+}
+
+div .button {
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background: #fafafa;
+  border: 1px solid #999999;
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none; 
+}
+div .button:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
+div .value-field {
+  float: left;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 2px;
+}
+
+div .monitor-field {
+  float: left;
+  display: inline-block;
+  margin: 5px 0px 5px 5px;
+  padding: 5px 0px 5px 2px;
+}
+
+#copyright {
+  float: left; 
+  width: 600px;
+  margin-left: 3px;
+  margin-right: 1000px;
+  font-size: 10px;
+}
+
+#feedback { font-size: 1.4em; }
+  
+#selectable li {background:transparent; border:1px solid white; cursor:pointer}
+  #selectable .ui-selecting { background: #FF4747; }
+  #selectable .ui-selected { background: #FF0000; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 100px; height:200px }
+  #selectable li { padding: 1px; float: left; width: 90px; height: 30px; font-size: 30px; text-align: center; }
+
+.pitchwrapper
+{
+    width:200px;
+    height:500px;
+    position:relative;
+    background-image:url('../images/pitch.png');
+}
+
+.selectableWrapper
+{
+    width:120px;
+    height:300px;
+    border: 0px solid black;
+    left: 54px;
+    top: 100px;
+    position:absolute;
+}
+  
+
+/* Preloader */
+#preloader {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+    	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+    	display:none;
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../images/status.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+    	display:none;
+}
+
+#status1 {
+	width:400px;
+	height:40px;
+	position:absolute;
+	left:43%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+    	display:none;
+}
