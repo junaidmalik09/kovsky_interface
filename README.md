@@ -4,9 +4,7 @@
 <img src="http://s13.postimg.org/5fzsswb6f/Screen_Shot_2014_11_19_at_2_18_15_AM.png" />
 </p>
 
-<p align="center">
-<img src="http://picoolio.net/images/2014/11/19/Capturge.jpg" />
-</p>
+
 
 The python script, running on Beagle bone, initializes the serial and Bluetooth connections, instantiates the web server class and creates a user interface using HTML 
 
@@ -24,4 +22,9 @@ The customized HTTP request handler receives the parameters and uses them as arg
 
 <p align="center">
 <img src="http://picoolio.net/images/2014/11/19/ScreenShot2014-11-19at2.25.01AM.png" />
+</p>
+
+## Woolmer Diagnostic Tool
+<p align="center">
+<img src="http://picoolio.net/images/2014/11/19/Capturge.jpg" />
 </p>
